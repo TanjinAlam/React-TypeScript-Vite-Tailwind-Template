@@ -8,7 +8,7 @@ export default {
       },
       screens: {
         tall: { raw: "(min-width: 884px)" },
-        
+
         // => @media (min-height: 800px) { ... }
       },
       colors: {
@@ -27,7 +27,7 @@ export default {
       },
       container: {
         center: true,
-        padding: "1rem",
+        padding: "10rem",
       },
     },
   },
