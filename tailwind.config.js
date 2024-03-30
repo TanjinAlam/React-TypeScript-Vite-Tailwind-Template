@@ -6,6 +6,11 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      screens: {
+        tall: { raw: "(min-width: 884px)" },
+        
+        // => @media (min-height: 800px) { ... }
+      },
       colors: {
         primary: {
           DEFAULT: "#000000",
