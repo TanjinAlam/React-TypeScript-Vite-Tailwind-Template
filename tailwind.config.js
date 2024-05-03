@@ -27,7 +27,9 @@ export default {
       },
       container: {
         center: true,
-        padding: "10rem",
+        padding: {
+          md: "10rem",
+        },
       },
     },
   },
