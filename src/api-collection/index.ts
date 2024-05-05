@@ -4,6 +4,9 @@ import {
   validateToken,
   signOut,
   addMyHotel,
+  fetchMyHotels,
+  fetchMyHotelById,
+  updateMyHotelById,
 } from "./api-client";
 
 export const apiClient = {
@@ -12,4 +15,7 @@ export const apiClient = {
   signIn: signIn,
   signOut: signOut,
   addMyHotel: addMyHotel,
+  fetchMyHotels: fetchMyHotels,
+  fetchMyHotelById: fetchMyHotelById,
+  updateMyHotelById: updateMyHotelById,
 };
